@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Админ-панель</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Админ-панель</h1>
+        <nav>
+            <a href="index.html">Главная</a>
+            <a href="catalog.html">Каталог</a>
+            <a href="cart.html">Корзина</a>
+        </nav>
+    </header>
+    <main>
+        <h2>Добавить товар</h2>
+        <input type="text" id="product-name" placeholder="Название товара">
+        <input type="number" id="product-price" placeholder="Цена">
+        <button onclick="addProduct()">Добавить</button>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>

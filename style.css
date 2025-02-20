@@ -1,0 +1,22 @@
+body {
+    font-family: Arial, sans-serif;
+    background: linear-gradient(90deg, red, orange, yellow, green, blue, indigo, violet);
+    color: white;
+    text-align: center;
+}
+header {
+    padding: 10px;
+    background: rgba(0, 0, 0, 0.5);
+}
+nav a {
+    color: white;
+    margin: 0 10px;
+    text-decoration: none;
+}
+button {
+    background: white;
+    color: black;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+}
